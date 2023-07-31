@@ -6,6 +6,7 @@ import Navbar from "./components/navbar/Navbar.tsx";
 import Menu from "./components/menu/Menu.tsx";
 import Footer from "./components/footer/Footer.tsx";
 
+import "./styles/global.scss";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
